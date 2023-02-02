@@ -6,7 +6,7 @@ def prever_demanda(vendas, dias_seguintes, ponderacao, cor):
     Realizar a previsão de demanda por meio de Suavização Exponencial Simples,
     Gerar a previsão para os dias seguintes com base nos últimos cinco dias previstos 
     anteriormente (decidi usar esse parâmetro devido ao padrão nos dados de pico/vale 
-    mais ou menos a cada cinco dias)
+    mais ou menos a cada cinco dias),
     Printar os valores previstos
     """
     demanda_historica = vendas
